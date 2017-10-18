@@ -1,0 +1,162 @@
+*{
+	box-sizing: border-box;
+	//position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+.site{
+	width: 1260px;
+	height: 940px;
+	margin: 0 auto;
+	background-color: #EDF2C5;
+}
+
+.site-header{
+	margin-left: auto;
+	margin-right: auto;
+	height: 147px;
+	width: 940px;
+}
+
+
+.site-main{
+	margin-left: auto;
+	margin-right: auto;
+	width: 940px;
+	background-color: #EDF2C5;
+}
+
+.main-pic{
+	margin: 20px 0px 30px 0px;
+}
+
+
+.site-footer{
+	background-color: #778A50;
+	width: 1260px;
+	height: 60px;
+}
+
+.copyright{
+	font-family: 'Arial Black';
+	font-size: 12px;
+	color: #EDF2C5;
+	padding: 21px 438px 27px 438px;
+}
+
+.title{
+	margin: 33px 0px 8px 0px;
+	color: #889C5B;
+	font-family: 'Arial Black';
+	font-size: 44px; 
+}
+
+.side-bar{
+	margin: 61px 17px 0px 0px; 
+}
+
+.bar-btn{
+	height: 25px;
+	margin: 0px 0px 0px 10px;
+	float: right;
+	color: #778A50;
+	background-color: #EDF2C5;
+	font-family: 'Arial Black';
+	font-size: 12px;
+}
+
+.bar-line{
+	display: inline;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Arial';
+}
+
+.btn-login{
+	border: 1px solid #75874F;
+	border-radius: 3px;
+	padding: 3px 9px 7px 9px;
+}
+
+.btn-join{
+	border: 1px solid #75874F;
+	border-radius: 3px;
+	padding: 3px 9px 7px 9px;
+}
+
+.pull-left{
+	float: left;
+}
+
+.pull-right{
+	float: right;
+}
+
+.menu{
+	width: 940px;
+	height: 44px;
+	background-color: #889C5B;
+	border-radius: 3px;
+	position: relative;
+	display: inline-block;
+}
+
+.menu-link{
+	padding: 10px 31px 22px 31px;
+	font-family: 'Arial Black';
+	font-size: 16px;
+	color: #EDF2C5;
+	float: left;
+}
+
+.menu-link ~ .menu-link{
+	padding: 10px 31px 22px 29px;
+}
+
+.card{
+	width: 445px;
+	height: 200px;
+	margin: 0px 0px 35px 0px;
+}
+
+.card-title{
+	width: 445px;
+	height: 45px;
+	border-radius: 3px;
+	display: inline-block;
+	background-color: #889C5B;
+
+	padding: 10px 31px 22px 31px;
+	font-family: 'Arial Black';
+	font-size: 16px;
+	color: #EDF2C5;
+	float: left;
+}
+
+.card-content-veg{
+	margin-top: 60px; 
+}
+
+.card-content-veg .midimg{
+	margin: 0px 8px;
+}
+
+.card-content-con{
+	width: 445px;
+	height: 140px;
+	margin-top: 60px;
+	padding: 15px 15px;
+	color: #898989;
+	background-color: #F7FBDA;
+	font-family: 'Arial';
+	font-size: 12px;
+}
+
+.clear{
+	content: '';
+	display: block;
+	clear: both;
+}
