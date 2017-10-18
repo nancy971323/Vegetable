@@ -1,3 +1,5 @@
+@import url("reset.css");
+
 *{
 	box-sizing: border-box;
 	//position: relative;
@@ -44,11 +46,11 @@ a {
 	font-family: 'Arial Black';
 	font-size: 12px;
 	color: #EDF2C5;
-	padding: 21px 438px 27px 438px;
+	padding: 24px 438px 24px 438px;
 }
 
 .title{
-	margin: 33px 0px 8px 0px;
+	margin: 53px 0px 14px 0px;
 	color: #889C5B;
 	font-family: 'Arial Black';
 	font-size: 44px; 
@@ -78,13 +80,13 @@ a {
 .btn-login{
 	border: 1px solid #75874F;
 	border-radius: 3px;
-	padding: 3px 9px 7px 9px;
+	padding: 5px 9px 5px 9px;
 }
 
 .btn-join{
 	border: 1px solid #75874F;
 	border-radius: 3px;
-	padding: 3px 9px 7px 9px;
+	padding: 5px 9px 5px 9px;
 }
 
 .pull-left{
@@ -105,7 +107,7 @@ a {
 }
 
 .menu-link{
-	padding: 10px 31px 22px 31px;
+	padding: 16px 31px 16px 31px;
 	font-family: 'Arial Black';
 	font-size: 16px;
 	color: #EDF2C5;
@@ -113,7 +115,7 @@ a {
 }
 
 .menu-link ~ .menu-link{
-	padding: 10px 31px 22px 29px;
+	padding: 16px 31px 16px 29px;
 }
 
 .card{
@@ -129,7 +131,7 @@ a {
 	display: inline-block;
 	background-color: #889C5B;
 
-	padding: 10px 31px 22px 31px;
+	padding: 16px 31px 16px 31px;
 	font-family: 'Arial Black';
 	font-size: 16px;
 	color: #EDF2C5;
